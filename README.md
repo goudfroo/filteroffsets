@@ -23,7 +23,7 @@ here, the optional parameter "nsigma" denotes the N in "N * sigma" for the sourc
 python filteroffsets.py <intab1> <intab2> <outtab> <maxdist>
 ```
 
-where <intab1> and <intab2> are the two input tables (which are envisaged to be output tables from `simplephot.py`), <outtab> is the output table that will contain the X and Y coordinates of the sources matched between the two input tables, and <maxdist> is the maximum distance between sources in the two input tables to be included as a "matched" source. Note that there are 6 additional optional input parameters to the `filteroffsets.py` script, which are defaulted to values deemed appropriate for this commissioning activity. Information on these optional parameters can be found in the script itself.
+where "intab1" and "intab2" are the two input tables (which are envisaged to be output tables from `simplephot.py`), "outtab" is the output table that will contain the X and Y coordinates of the sources matched between the two input tables, and "maxdist" is the maximum distance between sources in the two input tables to be included as a "matched" source. Note that there are 6 additional optional input parameters to the `filteroffsets.py` script, which are defaulted to values deemed appropriate for this commissioning activity. Information on these optional parameters can be found in the script itself.
 
 
 ## Contributing
