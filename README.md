@@ -3,7 +3,7 @@ This repository contains scripts that can be used for determining **Filter-to-Fi
 
 ## Installation
 This package has some external dependencies. Specifically, it requires the packages NumPy, AstroPy, statistics, and stsci.stimage. Python version 3.8 or later is preferred but not required if one selects the default settings of the scripts in this package. This package will work fine within the conda environment "jwst_fpa" (used for commissioning program NIS-013, see
-[this repo](https://github.com/tonysohn/jwst_fpa) or the general
+[this repo](https://github.com/tonysohn/jwst_fpa)) or the general
 [niriss-commissioning repo](https://github.com/spacetelescope/niriss-commissioning). The instructions below assume that one of those environments have been installed on your machine and that you have loaded into that environment.
 
 # Usage
