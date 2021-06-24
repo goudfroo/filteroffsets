@@ -15,7 +15,7 @@ There are two main scripts and one supplemental script (`offset_tools.py`, which
 python simplephot.py <input FITS file> <nsigma> <output table>
 ```
 
-here, the optional parameter <nsigma> denotes the N in "N * sigma" for the source detection threshold (sigma being the standard deviation of the sky background in the image), which is defaulted to 100. The optional parameter <output table>, which is defaulted to "simplephot.out", denotes the name of the (ASCII-format) output table that holds the astrometry and photometry values.
+here, the optional parameter "nsigma" denotes the N in "N * sigma" for the source detection threshold (sigma being the standard deviation of the sky background in the image), which is defaulted to 100. The optional parameter "output table", which is defaulted to "simplephot.out", denotes the name of the (ASCII-format) output table that holds the astrometry and photometry values.
 
 (2) `filteroffsets.py` - This script takes two tables coming from simplephot.py as input (typically one for each of two passbands. the second input table is used as "reference" table, and this table should represent the passband that is to be used as "zero offset" reference), then matches source coordinates from those two tables, and puts the X and Y coordinates of the matched sources in an output table. Finally, it performs iterative kappa-sigma clipping statistics on the differences of the X and Y coordinates from the two tables and outputs the results to the terminal. The script is run as follows:
 
